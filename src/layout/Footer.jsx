@@ -43,13 +43,18 @@ const Footers = () => {
   return (
     <Footer className="bg-primary-color text-text-color h-4 flex items-center justify-between px-4">
       <div>
+        <p className="m-0 font-semibold">
+         Made with React, Tailwind, Vite
+        </p>
+      </div>
+      <div>
         <p className="m-0">
           © {new Date().getFullYear()} Anish. All rights reserved.
         </p>
       </div>
       <div>
-        <p className="m-0">
-          {formattedDate}, {formattedTime}
+        <p className="m-0 ">
+          {formattedDate}, {formattedTime}, port:444
         </p>
       </div>
     </Footer>

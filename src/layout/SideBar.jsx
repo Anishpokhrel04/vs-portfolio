@@ -14,7 +14,7 @@ const menuItems = [
     items: [
       {
         key: "2",
-        image: js,
+        image: bs,
         title: "index.html",
         path: "/",
       },
@@ -32,7 +32,7 @@ const menuItems = [
       },
       {
         key: "6",
-        image: bs,
+        image: js,
         title: "Skills.js",
         path: "/skills",
       },
