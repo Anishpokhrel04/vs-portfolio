@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+  /* Font stack 1 */
+  font-family: 
+    ui-sans-serif, 
+    system-ui, 
+    -apple-system, 
+    Segoe UI, 
+    Roboto, 
+    Ubuntu, 
+    Cantarell, 
+    Noto Sans, 
+    sans-serif, 
+    BlinkMacSystemFont, 
+    "Helvetica Neue", 
+    Arial, 
+    "Apple Color Emoji", 
+    "Segoe UI Emoji", 
+    "Segoe UI Symbol", 
+    "Noto Color Emoji"; 
+}
+
+
+/* variables.css */
+:root {
+  --bg-color: #333333; /* Dark Background */
+  --bg-light: #252526;
+  --bg-sidebar: #1e1e1e;
+  --text-light:#707074;
+  --text-color: #d4d4d4; /* Foreground Text Color */
+  --primary-color: #007acc; /* Primary Selection */
+  --secondary-color: #6a9955; /* Comment Color */
+  --error-color: #f44747; /* Error Color */
+}
+.background {
+  background-color: var(--bg-color);
+}
+.sidebar-transition {
+  transition: all 0.3s ease; /* Smooth transition */
+}
+/* sidebarcolor */
+.ant-menu-inline.ant-menu-root .ant-menu-submenu-title,
+.ant-menu-light.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+  color: var(--text-color) !important ;
+}
+
+.ant-menu-light.ant-menu-inline .ant-menu-item,
+.ant-menu-light.ant-menu-inline {
+  background-color: transparent;
+  color: var(--text-color);
+}
