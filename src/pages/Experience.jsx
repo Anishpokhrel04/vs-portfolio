@@ -38,12 +38,12 @@ const experienceData = [
   {
     key: 4,
     date: "August 2018 - May 2022",
-    title: "BSc Computer Science",
-    company: "ABC University",
+    title: "BSc in Computer Science and Information Technology",
+    company: "Tribhuvan University",
     description:
       "Graduated with a degree in Computer Science and Information Technology.",
     icon: <FaGraduationCap />,
-    iconBg: "#34a853", // Green
+    iconBg: "#34a853",
   },
 ];
 
@@ -54,7 +54,7 @@ const Experience = () => {
       style={{ backgroundColor: "#1e1e1e" }}
     >
       {/* Dark background similar to VS Code */}
-      <h2 className="text-2xl font-bold text-center mb-8 text-white">
+      <h2 className="text-4xl font-bold text-center mb-8 text-primary-color">
         My Experience
       </h2>
       <VerticalTimeline>

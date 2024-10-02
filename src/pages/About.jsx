@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <>
-      <div >
-        <h1 className="text-5xl font-bold">Anish Pokhrel</h1>
-        <h4 className="text-2xl font-semibold text-gray-300">
+      <div>
+        <h1 className="text-5xl font-bold text-white">Anish Pokhrel</h1>
+        <h4 className="text-2xl font-semibold text-gray-400">
           Software Engineer
         </h4>
       </div>

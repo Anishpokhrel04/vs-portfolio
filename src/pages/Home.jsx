@@ -22,7 +22,7 @@ const AppLayout = () => {
       </Header>
 
       <Layout style={{ flexDirection: "row", paddingTop: "40px" }}>
-        <aside style={{ width: 60 }}>
+        <aside>
           <SmallSidebar onToggleSidebar={toggleSidebar} />
         </aside>
         <Layout style={{ flex: 1, flexDirection: "row", overflow: "hidden" }}>

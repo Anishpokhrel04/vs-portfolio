@@ -10,7 +10,7 @@ import bs from "../assets/images/bs.png";
 const menuItems = [
   {
     key: "main",
-    title: "Main Menu",
+    title: "About",
     items: [
       {
         key: "2",
