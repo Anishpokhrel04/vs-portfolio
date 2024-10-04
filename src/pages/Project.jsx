@@ -1,47 +1,58 @@
 import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import codepal from '../assets/images/codepal.png'
+import codepal from "../assets/images/codepal.png";
+import multiple from "../assets/images/multiple.png";
+import autonomous from "../assets/images/autonomous.png";
+import royalcomputer from "../assets/images/royalcomputer.png";
 
 const projects = [
   {
     id: 1,
     name: "Multiple Securities",
-    image: "", // Example project image
+    image: multiple,
     githubLink: "https://github.com/yourusername/portfolio",
     liveLink: "https://multiplesecurities.com/",
   },
   {
     id: 2,
-    name: "Explorer Constructions",
-    image: "", // Example project image
+    name: "Autonomous Technology",
+    image: autonomous,
     githubLink: "https://github.com/yourusername/ecommerce",
     liveLink: "https://explorerconstructions.com",
   },
+
   {
     id: 3,
     name: "Royal Computer Institute",
-    image: "", // Example project image
+    image: royalcomputer,
     githubLink: "https://github.com/yourusername/chatapp",
     liveLink: "https://royalcomputerinstitute.com.np/",
   },
   {
     id: 4,
     name: "Codepal Tech",
-    image: codepal, // Example project image
+    image: codepal, 
     githubLink: "https://github.com/yourusername/blog",
     liveLink: "https://blogwebsite.com",
   },
   {
     id: 5,
     name: "Social Media App",
-    image: "", // Example project image
+    image: "", 
     githubLink: "https://github.com/yourusername/socialmedia",
     liveLink: "https://socialmediaapp.com",
   },
   {
+    id: 2,
+    name: "Explorer Constructions",
+    image: "",
+    githubLink: "https://github.com/yourusername/ecommerce",
+    liveLink: "https://explorerconstructions.com",
+  },
+  {
     id: 6,
     name: "Task Management App",
-    image: "", // Example project image
+    image: "", 
     githubLink: "https://github.com/yourusername/taskapp",
     liveLink: "https://taskapp.com",
   },

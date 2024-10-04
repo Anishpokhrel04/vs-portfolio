@@ -1,35 +1,42 @@
 import React from "react";
+import js from "../assets/images/js.png";
+import react from "../assets/images/react.png";
+import antd from "../assets/images/antd.png";
+import git from "../assets/images/git.png";
+import github from "../assets/images/github.png";
+import bitbucket from "../assets/images/bitbucket.png";
+import tailwind from "../assets/images/tailwind.png";
+import jira from "../assets/images/jira.png";
+import postman from "../assets/images/postman.png";
+import mongodb from "../assets/images/mongodb.png";
+import next from "../assets/images/next.png";
+import vscode from "../assets/images/vscode.png";
+import bs from "../assets/images/bs.png";
 
-/** @type {import('tailwindcss').Config} */
 const skillsData = {
   frontendDevelopment: {
     title: "Frontend Development",
     skills: [
       {
         name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        image: js,
       },
 
       {
         name: "React",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+        image: react,
       },
       {
         name: "Next.js",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+        image: next,
       },
       {
         name: "Tailwind CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/6/6c/Tailwind_CSS_Logo.svg",
+        image: tailwind,
       },
       {
         name: "Bootstrap",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo_2020.svg",
+        image: bs,
       },
       {
         name: "SASS",
@@ -37,8 +44,8 @@ const skillsData = {
           "https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg",
       },
       {
-        name: "jQuery",
-        image: "https://upload.wikimedia.org/wikipedia/en/9/9e/JQuery-Logo.svg",
+        name: "Antd",
+        image: antd,
       },
     ],
   },
@@ -47,29 +54,8 @@ const skillsData = {
     title: "Database Management",
     skills: [
       {
-        name: "SQL",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/4/4d/SQL_Logo.svg",
-      },
-      {
-        name: "PostgreSQL",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/2/29/PostgreSQL_logo.2015.svg",
-      },
-      {
         name: "MongoDB",
-        image:
-          "https://upload.wikimedia.org/wikipedia/en/3/3c/MongoDB_Logo.svg",
-      },
-      {
-        name: "Cassandra",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/2/2c/Apache_Cassandra_logo.svg",
-      },
-      {
-        name: "Redis",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8b/Redis_Logo.svg",
+        image: mongodb,
       },
     ],
   },
@@ -79,18 +65,15 @@ const skillsData = {
     skills: [
       {
         name: "Git",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
+        image: git,
       },
       {
         name: "GitHub",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+        image: github,
       },
       {
         name: "Bitbucket",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/0/04/Bitbucket_logo_2010.svg",
+        image: bitbucket,
       },
     ],
   },
@@ -99,17 +82,15 @@ const skillsData = {
     skills: [
       {
         name: "Visual Studio Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/8b/Visual_Studio_Code_logo.svg",
+        image: vscode,
       },
       {
         name: "Postman",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/8/89/Postman_logo.png",
+        image: postman,
       },
       {
         name: "JIRA",
-        image: "https://upload.wikimedia.org/wikipedia/en/9/97/Jira_logo.png",
+        image: jira,
       },
     ],
   },
