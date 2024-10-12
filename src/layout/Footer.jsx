@@ -41,20 +41,24 @@ const Footers = () => {
   const formattedDate = formatDate(currentTime); // Format the date
 
   return (
-    <Footer className="bg-primary-color text-text-color h-4 flex items-center justify-between px-4">
-      <div>
-        <p className="m-0 font-semibold">
-         Made with React, Tailwind, Vite
-        </p>
+    <Footer className="bg-primary-color text-text-color flex justify-between items-center h-full">
+      <div className=" flex ml-10 font-semibold gap-3">
+        <p>Made in</p>
+        <p>React</p>
+        <p>Tailwind</p>
+        <p>Vite</p>
+        <p>Antd</p>
       </div>
+      {/* <div>
+       
+      </div> */}
       <div>
-        <p className="m-0">
-          © {new Date().getFullYear()} Anish. All rights reserved.
-        </p>
-      </div>
-      <div>
-        <p className="m-0 ">
-          {formattedDate}, {formattedTime}, port:444
+        <p className="mr-4 font-semibold flex gap-3 ">
+          <p>Total Visits</p>
+          <p>{formattedDate}</p>
+          <p>{formattedTime} </p>
+          <p>UTF-8</p>
+          <p>port: 444</p>
         </p>
       </div>
     </Footer>

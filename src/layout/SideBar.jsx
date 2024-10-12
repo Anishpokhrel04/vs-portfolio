@@ -3,7 +3,8 @@ import { useNavigate } from "react-router-dom"; // Import useNavigate hook
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io"; // Import icons for dropdown
 import js from "../assets/images/js.png";
 import css from "../assets/images/css.png";
-import react from "../assets/images/react.png";
+import antd from "../assets/images/antd.png";
+import react from "../assets/images/next.png";
 import bs from "../assets/images/bs.png";
 
 // Updated menuItems with nested structure
@@ -27,7 +28,7 @@ const menuItems = [
       {
         key: "4",
         image: react,
-        title: "Project",
+        title: "Project.js",
         path: "/projects",
       },
       {
@@ -44,7 +45,7 @@ const menuItems = [
     items: [
       {
         key: "4",
-        image: react,
+        image: antd,
         title: "Project",
         path: "/projects",
       },
@@ -57,7 +58,7 @@ const menuItems = [
     ],
   },
   {
-    key: "sideProjects",
+    key: "side  Projects",
     title: "Side Projects",
     items: [
       {
@@ -107,8 +108,7 @@ const MenuGroup = ({ group, onMenuClick }) => {
               <img
                 src={item.image}
                 alt={item.title}
-                className="w-4 h-4 mr-2"
-                style={{ objectFit: "cover" }}
+                className="w-4 h-4 mr-2 object-cover "
               />
               <span className="text-text-color text-sm">{item.title}</span>
             </div>
@@ -123,19 +123,33 @@ const SideBar = () => {
   const navigate = useNavigate();
 
   const handleMenuClick = (path) => {
-    navigate(path); // Navigate to the specified path
+    navigate(path);
   };
 
   return (
-    <div className="bg-bg-light h-full w-52 shadow-md">
-      <h1 className="pt-4 text-2xl text-center font-semibold">Explorer</h1>
-      {menuItems.map((group) => (
-        <MenuGroup
-          key={group.key}
-          group={group}
-          onMenuClick={handleMenuClick}
-        />
-      ))}
+    <div className="bg-bg-light h-full w-52 shadow-md flex flex-col justify-between">
+      <div>
+        <h1 className="pt-2 text-xl ml-4">Explorer</h1>
+        {menuItems.map((group) => (
+          <MenuGroup
+            key={group.key}
+            group={group}
+            onMenuClick={handleMenuClick}
+          />
+        ))}
+      </div>
+      <div className="flex flex-col ">
+        <hr />
+        <p className="my-1 items-center flex justify-center">© Anish Pokhrel</p>
+        <hr />
+        <p className="my-1 items-center flex justify-center">
+          All Rights Reserved
+        </p>
+        <hr />
+        <p className="my-1 items-center flex justify-center">
+          Made in {new Date().getFullYear()}
+        </p>
+      </div>
     </div>
   );
 };

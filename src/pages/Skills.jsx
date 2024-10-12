@@ -108,11 +108,8 @@ const Skills = () => {
       <div className="flex flex-col gap-8">
         {Object.entries(skillsData).map(
           ([key, { title, description, image, skills }]) => (
-            <div
-              key={key}
-              className="border p-4 rounded-lg shadow-lg bg-bg-light"
-            >
-              <h2 className="text-4xl mb-2">{title}</h2>
+            <div key={key} className=" p-4 rounded-lg ">
+              <h2 className="text-2xl font-semibold text-gray-400">{title}</h2>
               {description && <p className="mb-4">{description}</p>}
               {image && (
                 <img
@@ -124,11 +121,8 @@ const Skills = () => {
               {skills && (
                 <div className="flex flex-wrap gap-4 mt-4">
                   {skills.map(({ name, image }, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center border rounded-lg p-4 shadow-md bg-bg-color"
-                    >
-                      <img src={image} alt={name} className="w-16 h-16 mr-2" />
+                    <div key={index} className="flex items-center  p-4 ">
+                      <img src={image} alt={name} className="w-12 h-12 mr-2 bg-white p-1 rounded-lg object-contain items-center flex justify-center" />
                       <span className="text-xl font-semibold">{name}</span>
                     </div>
                   ))}
