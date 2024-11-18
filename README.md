@@ -1,48 +1,58 @@
-🌐 Anish Pokhrel - Portfolio 🚀
-Welcome to the repository for my Personal Portfolio Website!
-This project highlights my skills, projects, and experience in an interactive, developer-focused format.
+# 🚀 Anish Pokhrel - Personal Portfolio
 
-🌟 Features
-Minimalist UI
+Welcome to the repository for my **Personal Portfolio** website!  
+This project is a showcase of my professional journey, skills, and accomplishments, built with modern web technologies to deliver a fast, interactive, and responsive user experience.
 
-Clean and professional design to showcase my personal brand.
-Built with React
+---
 
-Dynamic and component-based development with React.js.
-Tailwind CSS Styling
+## 🌟 Website Highlights
 
-Modern, responsive designs powered by Tailwind CSS.
-Vercel Hosting
+- **Interactive Design**  
+  A dynamic portfolio featuring smooth navigation and responsive layouts.
 
-Deployed and optimized for performance on Vercel.
-🔧 Technologies Used
-Frontend Framework: React.js
-CSS Framework: Tailwind CSS
-Hosting: Vercel
-🚀 Live Demo
-Visit the live website: anish-portfolio-sooty.vercel.app
+- **Built with React & Vite**  
+  Utilizes **React** for component-based development and **Vite** for optimized performance and fast builds.
 
-📂 How to Run Locally
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-github/anish-portfolio.git
-Navigate to the project directory:
-bash
-Copy code
-cd anish-portfolio
-Install dependencies:
-bash
-Copy code
-npm install
-Start the development server:
-bash
-Copy code
-npm start
-Open your browser at http://localhost:3000.
-🛠️ Customization
-To personalize the portfolio, update the content in the src/components folder to reflect your name, skills, and projects.
+- **Tailwind CSS Styling**  
+  Styled with **Tailwind CSS**, delivering a utility-first approach for clean and responsive design.
 
-📜 License
-This project is licensed under the MIT License. Feel free to use and modify it for your personal portfolio.
+- **Performance Optimized**  
+  Hosted on **Vercel** for blazing-fast load times and reliability.
 
+- **SEO-Friendly**  
+  Meta tags, optimized images, and clean code ensure better visibility on search engines.
+
+---
+
+## 🔧 Technologies Used
+
+- **Frontend Framework**: [React.js](https://reactjs.org/)  
+- **Development Environment**: [Vite](https://vitejs.dev/)  
+- **CSS Framework**: [Tailwind CSS](https://tailwindcss.com/)  
+- **Hosting Platform**: [Vercel](https://vercel.com/)
+
+---
+
+## 🎯 Purpose
+
+This portfolio serves as a centralized platform to:  
+1. Highlight my **skills, projects, and experience**.  
+2. Provide an **interactive and professional showcase** of my work.  
+3. Offer a **modern and responsive user experience** that resonates with developers and recruiters.
+
+---
+
+## 🚀 Live Demo
+
+Experience the website live:  
+👉 [anish-portfolio-sooty.vercel.app](https://anish-portfolio-sooty.vercel.app/)
+
+---
+
+## 📂 How to Run Locally
+
+Follow these steps to clone and run the project on your local machine:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Anishpokhrel04/vs-portfolio.git
