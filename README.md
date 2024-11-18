@@ -1,45 +1,36 @@
-🖥️ Terminal Portfolio - Anish Pokhrel 🚀
-Welcome to the repository for my Terminal-Themed Portfolio Website!
-This project showcases my personal portfolio using a sleek terminal-inspired UI, built with modern web technologies.
+🌐 Anish Pokhrel - Portfolio 🚀
+Welcome to the repository for my Personal Portfolio Website!
+This project highlights my skills, projects, and experience in an interactive, developer-focused format.
 
 🌟 Features
-Terminal UI Design
+Minimalist UI
 
-A minimalist command-line-inspired interface, providing a unique and interactive user experience.
+Clean and professional design to showcase my personal brand.
 Built with React
 
-The website leverages the power of React.js for dynamic and component-based development.
+Dynamic and component-based development with React.js.
 Tailwind CSS Styling
 
-Styled with Tailwind CSS for rapid design and fully responsive layouts.
-Dark Mode Support
+Modern, responsive designs powered by Tailwind CSS.
+Vercel Hosting
 
-Emphasizes a developer-friendly, visually pleasing dark theme.
-Command Navigation
-
-Users can navigate through sections with intuitive terminal-like commands.
+Deployed and optimized for performance on Vercel.
 🔧 Technologies Used
 Frontend Framework: React.js
 CSS Framework: Tailwind CSS
-Hosting: Netlify
-🎯 Purpose
-This portfolio is designed to:
-
-Showcase my projects and skills in a unique and creative way.
-Emulate the terminal aesthetics that resonate with developers.
-Provide a simple yet engaging browsing experience for visitors.
+Hosting: Vercel
 🚀 Live Demo
-Check out the live website here: anishpokhrelportfolio.netlify.app
+Visit the live website: anish-portfolio-sooty.vercel.app
 
 📂 How to Run Locally
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-github/terminal-portfolio.git
+git clone https://github.com/your-github/anish-portfolio.git
 Navigate to the project directory:
 bash
 Copy code
-cd terminal-portfolio
+cd anish-portfolio
 Install dependencies:
 bash
 Copy code
@@ -50,7 +41,8 @@ Copy code
 npm start
 Open your browser at http://localhost:3000.
 🛠️ Customization
-You can personalize the portfolio by updating the content in the src/components folder, including your name, projects, and commands.
+To personalize the portfolio, update the content in the src/components folder to reflect your name, skills, and projects.
 
 📜 License
 This project is licensed under the MIT License. Feel free to use and modify it for your personal portfolio.
+
